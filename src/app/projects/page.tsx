@@ -8,12 +8,12 @@ import {
   ArrowRight,
   CheckCircle2,
   Phone,
-  MessageSquare,
 } from "lucide-react";
 import Container from "@/components/shared/Container";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import SectionHeading from "@/components/shared/SectionHeading";
 import ProjectFilters from "@/components/projects/ProjectFilters";
+import WhatsAppIcon from "@/components/shared/WhatsAppIcon";
 import { projectsData } from "@/data/projects";
 import { companyInfo } from "@/data/company";
 
@@ -182,9 +182,9 @@ export default function ProjectsPage() {
                         href={`https://wa.me/919211050139?text=Hello%20The%20Shed%20Master%2C%20I%20saw%20your%20project%20${encodeURIComponent(project.title)}%20in%20${encodeURIComponent(project.location)}%20and%20would%20like%20to%20discuss%20my%20requirements.`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 text-xs sm:text-sm font-medium transition-colors"
+                        className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-white hover:bg-[#E8F8EE] text-gray-800 border border-gray-200 hover:border-[#25D366] text-xs sm:text-sm font-medium transition-colors shadow-xs"
                       >
-                        <MessageSquare className="w-3.5 h-3.5 text-emerald-600" />
+                        <WhatsAppIcon className="w-4 h-4 text-[#25D366] fill-current" />
                         <span>Chat With Us</span>
                       </a>
                     </div>

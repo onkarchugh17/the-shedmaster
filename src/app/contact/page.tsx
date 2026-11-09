@@ -5,12 +5,12 @@ import {
   Mail,
   MapPin,
   Clock,
-  MessageSquare,
   ShieldCheck,
 } from "lucide-react";
 import Container from "@/components/shared/Container";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import ContactForm from "@/components/contact/ContactForm";
+import WhatsAppIcon from "@/components/shared/WhatsAppIcon";
 import { companyInfo } from "@/data/company";
 
 export const metadata: Metadata = {
@@ -124,10 +124,10 @@ export default function ContactPage() {
                   href={companyInfo.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-5 rounded-2xl bg-emerald-50 hover:bg-emerald-100/70 border border-emerald-200 transition-all group"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-[#E8F8EE] hover:bg-[#D4F3E0] border border-[#25D366]/40 transition-all group"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-xs">
-                    <MessageSquare className="w-6 h-6" />
+                  <div className="w-12 h-12 rounded-xl bg-[#25D366] text-white flex items-center justify-center shrink-0 shadow-xs">
+                    <WhatsAppIcon className="w-6 h-6 fill-current text-white" />
                   </div>
                   <div>
                     <div className="text-xs font-semibold text-emerald-800 uppercase tracking-wider">

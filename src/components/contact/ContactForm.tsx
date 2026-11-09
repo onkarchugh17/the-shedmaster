@@ -6,8 +6,8 @@ import {
   AlertCircle,
   Loader2,
   ArrowRight,
-  MessageSquare,
 } from "lucide-react";
+import WhatsAppIcon from "@/components/shared/WhatsAppIcon";
 
 interface ContactFormProps {
   initialService?: string;
@@ -101,9 +101,9 @@ export default function ContactForm({
             href={`https://wa.me/919211050139?text=Hello%20The%20Shed%20Master%2C%20I%20just%20submitted%20an%20enquiry%20(${leadId})%20for%20${encodeURIComponent(formData.service || "Shed Services")}%20on%20your%20website.`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium transition-colors"
+            className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white text-sm font-semibold transition-colors shadow-xs"
           >
-            <MessageSquare className="w-4 h-4" />
+            <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
             <span>Fast-Track on WhatsApp</span>
           </a>
 

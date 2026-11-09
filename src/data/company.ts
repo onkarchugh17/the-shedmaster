@@ -10,7 +10,7 @@ export const companyInfo = {
   phoneTel: "+919211050139",
   email: "theshedmaster17@gmail.com",
   whatsappUrl: "https://wa.me/919211050139?text=Hello%20The%20Shed%20Master%2C%20I%20would%20like%20to%20enquire%20about%20your%20services.",
-  address: "Headquartered in Delhi NCR, executing projects across Rajasthan, Maharashtra, Gujarat, Madhya Pradesh, UP & Pan India",
+  address: "Headquartered in Delhi NCR, executing projects across Pan India",
   experienceYears: "12+",
   coverage: "Pan India Service",
   businessHours: "Mon - Sat: 9:00 AM - 7:30 PM",

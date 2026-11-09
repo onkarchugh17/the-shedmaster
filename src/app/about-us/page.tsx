@@ -6,13 +6,13 @@ import {
   Users2,
   MapPin,
   Phone,
-  MessageSquare,
   Building2,
   Clock,
 } from "lucide-react";
 import Container from "@/components/shared/Container";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import SectionHeading from "@/components/shared/SectionHeading";
+import WhatsAppIcon from "@/components/shared/WhatsAppIcon";
 import { companyInfo } from "@/data/company";
 
 export const metadata: Metadata = {
@@ -246,13 +246,13 @@ export default function AboutUsPage() {
                   href={companyInfo.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-3 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700 transition-colors"
+                  className="flex items-center gap-3 p-3 rounded-xl bg-[#25D366] text-white hover:bg-[#20bd5a] transition-colors shadow-xs"
                 >
                   <div className="w-9 h-9 rounded-lg bg-white/20 text-white flex items-center justify-center shrink-0">
-                    <MessageSquare className="w-4 h-4" />
+                    <WhatsAppIcon className="w-5 h-5 fill-current text-white" />
                   </div>
                   <div>
-                    <div className="text-[11px] text-white/80 uppercase font-medium">Instant Consultation</div>
+                    <div className="text-[11px] text-white/90 uppercase font-medium">Instant Consultation</div>
                     <div className="text-sm font-semibold">Message on WhatsApp</div>
                   </div>
                 </a>

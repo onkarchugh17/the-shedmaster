@@ -8,11 +8,11 @@ import {
   Clock,
   ArrowUpRight,
   ShieldCheck,
-  MessageSquare,
 } from "lucide-react";
 import { companyInfo } from "@/data/company";
 import { servicesData } from "@/data/services";
 import Container from "../shared/Container";
+import WhatsAppIcon from "@/components/shared/WhatsAppIcon";
 
 export default function Footer() {
   const currentYear = 2026;
@@ -54,8 +54,8 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-[#0D4734] text-emerald-300 flex items-center justify-center shrink-0">
-                <MessageSquare className="w-6 h-6" />
+              <div className="w-12 h-12 rounded-xl bg-[#25D366]/20 text-[#25D366] flex items-center justify-center shrink-0 border border-[#25D366]/30">
+                <WhatsAppIcon className="w-6 h-6 fill-current" />
               </div>
               <div>
                 <div className="text-xs text-gray-400 uppercase tracking-wider font-medium">WhatsApp Consultation</div>
@@ -63,7 +63,7 @@ export default function Footer() {
                   href={companyInfo.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-base sm:text-lg font-semibold text-white hover:text-emerald-400 transition-colors flex items-center gap-1"
+                  className="text-base sm:text-lg font-semibold text-white hover:text-[#25D366] transition-colors flex items-center gap-1.5"
                 >
                   <span>Chat With us</span>
                   <ArrowUpRight className="w-4 h-4" />
@@ -191,9 +191,10 @@ export default function Footer() {
                   href={companyInfo.whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-center py-2 px-3 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-semibold transition-colors"
+                  className="flex items-center justify-center gap-2 py-2 px-3 rounded-lg bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-semibold transition-colors shadow-xs"
                 >
-                  WhatsApp Consultation
+                  <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
+                  <span>WhatsApp Consultation</span>
                 </a>
               </div>
             </div>

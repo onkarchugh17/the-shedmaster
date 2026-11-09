@@ -26,9 +26,9 @@ export const testimonialsData: TestimonialItem[] = [
   },
   {
     id: "3",
-    name: "Suresh Patil",
+    name: "Mr. Prashant",
     role: "Business Owner",
-    location: "Pune, Maharashtra",
+    location: "Panipat, Haryana",
     content: "Strong design, quality material and great support throughout the project.",
     rating: 5,
   },

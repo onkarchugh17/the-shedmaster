@@ -9,10 +9,10 @@ import {
   Phone,
   ArrowRight,
   Warehouse,
-  MessageSquare,
 } from "lucide-react";
 import { companyInfo } from "@/data/company";
 import Container from "../shared/Container";
+import WhatsAppIcon from "@/components/shared/WhatsAppIcon";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -174,9 +174,9 @@ export default function Header() {
                 href={companyInfo.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-lg bg-emerald-600 text-white text-sm font-medium hover:bg-emerald-700 transition-colors"
+                className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-lg bg-[#25D366] text-white text-sm font-semibold hover:bg-[#20bd5a] transition-colors shadow-xs"
               >
-                <MessageSquare className="w-4 h-4" />
+                <WhatsAppIcon className="w-4 h-4 fill-current text-white" />
                 <span>Chat on WhatsApp</span>
               </a>
 
