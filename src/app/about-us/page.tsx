@@ -18,7 +18,7 @@ import { companyInfo } from "@/data/company";
 export const metadata: Metadata = {
   title: "About The Shed Master — Industrial Construction & Engineering India",
   description:
-    "Learn about The Shed Master, led by Kaushal. Providing engineered Pre-Engineered Buildings, conventional steel sheds, and certified fire pipelines across India with trust and precision.",
+    "Learn about The Shed Master. Providing engineered Pre-Engineered Buildings, conventional steel sheds, and certified fire pipelines across India with trust and precision.",
   alternates: {
     canonical: "https://theshedmaster.com/about-us",
   },
@@ -49,7 +49,7 @@ export default function AboutUsPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              The Shed Master, under the leadership of Kaushal, is an Indian industrial construction and engineering firm dedicated to high-performance shed construction, certified fire pipelines, and structural steel fabrication.
+              The Shed Master is a trusted Indian industrial construction and engineering firm dedicated to high-performance shed construction, certified fire pipelines, and structural steel fabrication.
             </p>
           </div>
         </Container>
@@ -76,10 +76,10 @@ export default function AboutUsPage() {
                     <div className="flex items-center justify-between">
                       <div>
                         <div className="text-xs uppercase tracking-wider text-emerald-800 font-semibold">
-                          Executive Leadership
+                          Engineering Leadership
                         </div>
                         <div className="text-base font-semibold text-gray-900 mt-0.5">
-                          {companyInfo.owner} — Founder & Managing Director
+                          The Shed Master — Industrial Specialists
                         </div>
                       </div>
                       <div className="w-10 h-10 rounded-full bg-[#0D4734] text-white flex items-center justify-center font-bold text-xs shrink-0">
@@ -107,7 +107,7 @@ export default function AboutUsPage() {
               </p>
 
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                Led personally by Kaushal, our team brings hands-on field supervision to every square foot. We eliminate bureaucratic delays and opaque pricing, offering clients direct access to decision-makers and realistic project schedules.
+                Our team brings hands-on field supervision to every square foot. We eliminate bureaucratic delays and opaque pricing, offering clients direct access to senior project engineers and realistic project schedules.
               </p>
 
               <div className="grid grid-cols-2 gap-4 pt-4 border-t border-gray-100">
@@ -159,8 +159,8 @@ export default function AboutUsPage() {
               },
               {
                 icon: Users2,
-                title: "Owner-Led Communication",
-                desc: "You deal directly with Kaushal and experienced project engineers, ensuring complete clarity at every stage.",
+                title: "Direct Engineering Communication",
+                desc: "You deal directly with experienced project engineers and technical leadership, ensuring complete clarity at every stage.",
               },
             ].map((pillar, idx) => {
               const Icon = pillar.icon;
@@ -222,7 +222,7 @@ export default function AboutUsPage() {
 
             <div className="lg:col-span-6 bg-[#F0F7F4] rounded-3xl p-8 border border-[#DEECE5] space-y-6">
               <h3 className="text-xl font-semibold text-gray-900">
-                Ready to Consult With Kaushal?
+                Ready to Consult With Our Team?
               </h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 We are happy to visit your site, analyze soil and plinth levels, or review structural drawings prepared by your architects.

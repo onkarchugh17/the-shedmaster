@@ -29,7 +29,7 @@ export default function TermsAndConditionsPage() {
 
           <section className="space-y-6 text-sm text-gray-700 leading-relaxed">
             <p>
-              These Terms and Conditions govern all commercial agreements, quotations, structural fabrications, fire pipeline installations, and construction contracts executed by <strong>{companyInfo.name}</strong> (&ldquo;Contractor&rdquo;), represented by owner <strong>{companyInfo.owner}</strong>.
+              These Terms and Conditions govern all commercial agreements, quotations, structural fabrications, fire pipeline installations, and construction contracts executed by <strong>{companyInfo.name}</strong> (&ldquo;Contractor&rdquo;).
             </p>
 
             <h2 className="text-lg font-semibold text-gray-900 pt-4">
@@ -83,14 +83,14 @@ export default function TermsAndConditionsPage() {
               6. Dispute Resolution
             </h2>
             <p>
-              Any disputes arising out of contracts entered into with The Shed Master shall be resolved through mutual executive discussion with owner Kaushal. In the event of formal legal proceedings, jurisdiction shall lie exclusively with the competent courts in Delhi NCR.
+              Any disputes arising out of contracts entered into with The Shed Master shall be resolved through mutual executive discussion with the management of The Shed Master. In the event of formal legal proceedings, jurisdiction shall lie exclusively with the competent courts in Delhi NCR.
             </p>
 
             <div className="p-4 rounded-xl bg-gray-50 border border-gray-200 mt-6 text-xs sm:text-sm">
               <div className="font-semibold text-gray-900">{companyInfo.name}</div>
-              <div>Founder & Managing Director: {companyInfo.owner}</div>
               <div>Direct Phone: {companyInfo.phoneFormatted}</div>
               <div>Official Email: {companyInfo.email}</div>
+              <div>Operational Coverage: {companyInfo.address}</div>
             </div>
           </section>
         </div>

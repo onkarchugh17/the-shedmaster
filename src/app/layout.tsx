@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     template: `%s | ${companyInfo.name}`,
   },
   description:
-    "India's premier industrial construction contractor led by Kaushal. High-grade PEB sheds, conventional factory structures, certified fire pipelines, and heavy structural fabrication.",
-  authors: [{ name: companyInfo.owner }],
+    "India's premier industrial construction contractor. High-grade PEB sheds, conventional factory structures, certified fire pipelines, and heavy structural fabrication.",
+  authors: [{ name: companyInfo.name }],
   creator: companyInfo.name,
   publisher: companyInfo.name,
   formatDetection: {
@@ -74,10 +74,7 @@ export default function RootLayout({
     "@type": "GeneralContractor",
     "name": companyInfo.name,
     "description": companyInfo.description,
-    "founder": {
-      "@type": "Person",
-      "name": companyInfo.owner,
-    },
+    "legalName": companyInfo.name,
     "telephone": companyInfo.phoneTel,
     "email": companyInfo.email,
     "url": "https://theshedmaster.com",

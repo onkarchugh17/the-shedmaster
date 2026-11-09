@@ -81,7 +81,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <div className="p-4 rounded-xl bg-gray-50 border border-gray-200 space-y-1 text-xs sm:text-sm">
               <div className="font-semibold text-gray-900">{companyInfo.name}</div>
-              <div>Attn: {companyInfo.owner} (Founder & Managing Director)</div>
+              <div>Attn: Privacy & Legal Team</div>
               <div>Phone: {companyInfo.phoneFormatted}</div>
               <div>Email: {companyInfo.email}</div>
             </div>

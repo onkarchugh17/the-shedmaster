@@ -4,7 +4,7 @@ export const companyInfo = {
   subTagline: "Sheds, Fire Pipeline & Steel Solutions for Your Growing Business",
   description:
     "From PEB sheds and conventional structures to fire pipeline systems and custom fabrication, we deliver complete solutions for industrial, commercial and agricultural needs across India.",
-  owner: "Kaushal",
+  owner: "The Shed Master Team",
   phone: "9211050139",
   phoneFormatted: "+91 92110 50139",
   phoneTel: "+919211050139",

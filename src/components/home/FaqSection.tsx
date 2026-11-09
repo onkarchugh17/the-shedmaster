@@ -67,7 +67,7 @@ export default function FaqSection() {
             href="/contact"
             className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#0D4734] hover:text-[#083325]"
           >
-            <span>Ask owner Kaushal directly</span>
+            <span>Chat with our team directly</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

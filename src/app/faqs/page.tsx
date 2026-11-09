@@ -126,7 +126,7 @@ export default function FaqsPage() {
                 Have a project-specific query?
               </h3>
               <p className="text-xs sm:text-sm text-gray-600 mt-1">
-                Owner Kaushal is readily available for technical queries and cost estimates.
+                Our engineering team is readily available for technical queries and cost estimates.
               </p>
             </div>
 
@@ -136,7 +136,7 @@ export default function FaqsPage() {
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#0D4734] hover:bg-[#083325] text-white text-xs sm:text-sm font-semibold transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                <span>Call Kaushal</span>
+                <span>Call Us</span>
               </a>
 
               <Link

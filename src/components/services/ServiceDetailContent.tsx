@@ -279,7 +279,7 @@ export default function ServiceDetailContent({
                 Get a Customized Proposal for Your {service.shortTitle}
               </h2>
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-                Connect directly with owner Kaushal. We provide free land layout advice, structural optimization suggestions, and upfront pricing.
+                Connect directly with our engineering team. We provide free land layout advice, structural optimization suggestions, and upfront pricing.
               </p>
 
               <div className="space-y-2 text-xs sm:text-sm text-gray-300 pt-2">

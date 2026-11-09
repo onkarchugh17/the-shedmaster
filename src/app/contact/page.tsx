@@ -14,12 +14,12 @@ import ContactForm from "@/components/contact/ContactForm";
 import { companyInfo } from "@/data/company";
 
 export const metadata: Metadata = {
-  title: "Contact The Shed Master — Call Kaushal at 9211050139",
+  title: "Contact The Shed Master — Direct Industrial Estimates & Consultation",
   description:
-    "Get in touch with The Shed Master. Contact owner Kaushal directly at 9211050139 or theshedmaster17@gmail.com for industrial shed quotes, fire pipeline consultations, and structural fabrication estimates.",
+    "Get in touch with The Shed Master. Contact our team directly at 9211050139 or theshedmaster17@gmail.com for industrial shed quotes, fire pipeline consultations, and structural fabrication estimates.",
   keywords: [
     "The Shed Master Contact",
-    "Kaushal Shed Master Phone",
+    "The Shed Master Phone",
     "9211050139",
     "theshedmaster17@gmail.com",
     "Industrial Shed Quotation India",
@@ -54,7 +54,7 @@ export default function ContactPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              Have an upcoming warehouse, factory expansion, or fire safety mandate? Reach out directly to owner Kaushal and our engineering team for honest technical advice and itemized quotes.
+              Have an upcoming warehouse, factory expansion, or fire safety mandate? Reach out directly to our engineering team for honest technical advice and itemized quotes.
             </p>
           </div>
         </Container>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                       {companyInfo.phoneFormatted}
                     </div>
                     <div className="text-xs text-gray-500 mt-1">
-                      Directly connects with Kaushal
+                      Directly connects with our senior team
                     </div>
                   </div>
                 </a>
@@ -134,7 +134,7 @@ export default function ContactPage() {
                       WhatsApp Quick Chat
                     </div>
                     <div className="text-base font-semibold text-emerald-950 mt-0.5">
-                      Chat with Kaushal on WhatsApp
+                      Chat With us on WhatsApp
                     </div>
                     <div className="text-xs text-emerald-700 mt-1">
                       Typically replies in under 15 minutes
@@ -173,7 +173,7 @@ export default function ContactPage() {
             <div className="lg:col-span-7">
               <ContactForm
                 title="Send Us Your Project Requirements"
-                subtitle="Fill out the form below and Kaushal or our senior engineer will review your inquiry and follow up promptly."
+                subtitle="Fill out the form below and our senior engineering team will review your inquiry and follow up promptly."
               />
             </div>
           </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "PEB Warehouse Construction",
     "Industrial Steel Shed",
     "Clear Span Shed",
-    "The Shed Master Kaushal",
+    "The Shed Master",
   ],
   alternates: {
     canonical: "https://theshedmaster.com/services/peb-shed",

@@ -28,7 +28,7 @@ export default function Footer() {
                 <Phone className="w-6 h-6" />
               </div>
               <div>
-                <div className="text-xs text-gray-400 uppercase tracking-wider font-medium">Direct Line to Kaushal</div>
+                <div className="text-xs text-gray-400 uppercase tracking-wider font-medium">Direct Helpline</div>
                 <a
                   href={`tel:${companyInfo.phoneTel}`}
                   className="text-base sm:text-lg font-semibold text-white hover:text-emerald-400 transition-colors"
@@ -65,7 +65,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-base sm:text-lg font-semibold text-white hover:text-emerald-400 transition-colors flex items-center gap-1"
                 >
-                  <span>Chat with Kaushal</span>
+                  <span>Chat With us</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
               </div>
@@ -178,7 +178,7 @@ export default function Footer() {
                 Coverage & Enquiries
               </h3>
               <p className="text-xs text-gray-400 leading-relaxed mb-4">
-                Have an upcoming warehouse or factory project? Contact owner Kaushal directly for consultation and estimates.
+                Have an upcoming warehouse or factory project? Contact our team directly for consultation and estimates.
               </p>
               <div className="space-y-2">
                 <a
@@ -206,7 +206,7 @@ export default function Footer() {
         <Container>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              © {currentYear} {companyInfo.name}. All rights reserved. Operated by {companyInfo.owner}.
+              © {currentYear} {companyInfo.name}. All rights reserved.
             </div>
             <div className="flex items-center gap-6">
               <Link href="/privacy-policy" className="hover:text-white transition-colors">

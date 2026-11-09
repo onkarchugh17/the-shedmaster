@@ -73,7 +73,7 @@ export default function ContactForm({
       if (err instanceof Error) {
         setErrorMessage(err.message);
       } else {
-        setErrorMessage("Something went wrong. Please call Kaushal at 9211050139.");
+        setErrorMessage("Something went wrong. Please call us at 9211050139.");
       }
     }
   };
@@ -91,14 +91,14 @@ export default function ContactForm({
           Reference ID: {leadId}
         </p>
         <p className="text-sm text-gray-600 leading-relaxed mb-6">
-          Thank you <span className="font-semibold text-gray-900">{formData.name}</span>. Owner Kaushal and our engineering team have received your request for{" "}
+          Thank you <span className="font-semibold text-gray-900">{formData.name}</span>. Our engineering team has received your request for{" "}
           <span className="font-semibold text-[#0D4734]">{formData.service || "industrial shed services"}</span>. We will review your details and contact you shortly at{" "}
           <span className="font-medium text-gray-900">{formData.phone}</span>.
         </p>
 
         <div className="space-y-3">
           <a
-            href={`https://wa.me/919211050139?text=Hello%20Kaushal%2C%20I%20just%20submitted%20an%20enquiry%20(${leadId})%20for%20${encodeURIComponent(formData.service || "Shed Services")}%20on%20The%20Shed%20Master%20website.`}
+            href={`https://wa.me/919211050139?text=Hello%20The%20Shed%20Master%2C%20I%20just%20submitted%20an%20enquiry%20(${leadId})%20for%20${encodeURIComponent(formData.service || "Shed Services")}%20on%20your%20website.`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium transition-colors"
@@ -293,7 +293,7 @@ export default function ContactForm({
         </button>
 
         <p className="text-[11px] text-gray-400 text-center">
-          We respect your privacy. No spam. You will be connected directly with Kaushal at The Shed Master.
+          We respect your privacy. No spam. You will be connected directly with our team at The Shed Master.
         </p>
       </form>
     </div>

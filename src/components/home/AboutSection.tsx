@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 import Container from "../shared/Container";
-import { companyInfo } from "@/data/company";
 
 export default function AboutSection() {
   return (
@@ -30,10 +29,10 @@ export default function AboutSection() {
                   </div>
                   <div>
                     <div className="text-xs font-semibold text-gray-900">
-                      Led by {companyInfo.owner}
+                      Precision Engineered
                     </div>
                     <div className="text-[11px] text-gray-500">
-                      Industrial Structural Engineering
+                      Industrial Structural Specialists
                     </div>
                   </div>
                 </div>
@@ -53,7 +52,7 @@ export default function AboutSection() {
             </h2>
 
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-              Founded under the leadership of Kaushal, <span className="font-semibold text-gray-900">The Shed Master</span> has earned a dependable reputation in industrial infrastructure. We bridge precision structural engineering with cost-efficient execution for warehouses, factories, and commercial spaces.
+              <span className="font-semibold text-gray-900">The Shed Master</span> has earned a dependable reputation in industrial infrastructure across India. We bridge precision structural engineering with cost-efficient execution for warehouses, factories, and commercial spaces.
             </p>
 
             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
@@ -65,7 +64,7 @@ export default function AboutSection() {
               {[
                 "Certified structural grade steel",
                 "Strict adherence to IS 800 & NBC codes",
-                "Direct owner oversight by Kaushal",
+                "Direct senior engineering oversight",
                 "Fixed pricing & committed milestones",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-2 text-xs sm:text-sm text-gray-700">

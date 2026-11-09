@@ -179,13 +179,13 @@ export default function ProjectsPage() {
                       </Link>
 
                       <a
-                        href={`https://wa.me/919211050139?text=Hello%20Kaushal%2C%20I%20saw%20your%20project%20${encodeURIComponent(project.title)}%20in%20${encodeURIComponent(project.location)}%20and%20would%20like%20to%20discuss%20my%20requirements.`}
+                        href={`https://wa.me/919211050139?text=Hello%20The%20Shed%20Master%2C%20I%20saw%20your%20project%20${encodeURIComponent(project.title)}%20in%20${encodeURIComponent(project.location)}%20and%20would%20like%20to%20discuss%20my%20requirements.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-full bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 text-xs sm:text-sm font-medium transition-colors"
                       >
                         <MessageSquare className="w-3.5 h-3.5 text-emerald-600" />
-                        <span>Discuss with Kaushal</span>
+                        <span>Chat With Us</span>
                       </a>
                     </div>
                   </div>

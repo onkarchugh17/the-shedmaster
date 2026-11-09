@@ -18,7 +18,7 @@ export const generalFaqs: FaqItem[] = [
     category: "General",
     question: "How do I get an estimate or quote for my project?",
     answer:
-      "You can submit our online consultation form, email us at theshedmaster17@gmail.com, or directly call or WhatsApp our owner Kaushal at +91 92110 50139. Share your plot dimensions, proposed usage, and location, and we will prepare a preliminary layout and transparent quotation.",
+      "You can submit our online consultation form, email us at theshedmaster17@gmail.com, or directly call or WhatsApp our team at +91 92110 50139. Share your plot dimensions, proposed usage, and location, and we will prepare a preliminary layout and transparent quotation.",
   },
   {
     id: "g3",

@@ -165,7 +165,7 @@ export default function Header() {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <div className="text-xs text-gray-500">Call Kaushal Directly</div>
+                  <div className="text-xs text-gray-500">Call Us Directly</div>
                   <div className="font-semibold">{companyInfo.phoneFormatted}</div>
                 </div>
               </a>

@@ -53,13 +53,13 @@ export default function ServiceHero({
             </Link>
 
             <a
-              href={`https://wa.me/919211050139?text=Hello%20Kaushal%2C%20I%20am%20interested%20in%20${encodeURIComponent(title)}%20services.`}
+              href={`https://wa.me/919211050139?text=Hello%20The%20Shed%20Master%2C%20I%20am%20interested%20in%20${encodeURIComponent(title)}%20services.`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 text-sm font-semibold transition-colors shadow-xs"
             >
               <MessageSquare className="w-4 h-4 text-emerald-600" />
-              <span>WhatsApp Kaushal</span>
+              <span>Chat With Us</span>
             </a>
 
             <a

@@ -61,7 +61,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         success: true,
-        message: "Thank you for contacting The Shed Master! Owner Kaushal and our engineering team will get in touch with you shortly.",
+        message: "Thank you for contacting The Shed Master! Our engineering team will get in touch with you shortly.",
         data: {
           leadId: `TSM-${Date.now().toString().slice(-6)}`,
         },

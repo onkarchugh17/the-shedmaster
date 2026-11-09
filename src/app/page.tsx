@@ -13,7 +13,7 @@ import HomeCtaSection from "@/components/home/HomeCtaSection";
 export const metadata: Metadata = {
   title: "The Shed Master — Industrial Sheds, Fire Pipeline & Steel Fabrication India",
   description:
-    "India's premier industrial construction company led by Kaushal. High-strength PEB sheds, conventional factory structures, NBC-compliant fire pipeline networks, and custom structural steel fabrication.",
+    "India's premier industrial construction company. High-strength PEB sheds, conventional factory structures, NBC-compliant fire pipeline networks, and custom structural steel fabrication.",
   keywords: [
     "PEB Shed India",
     "Pre-Engineered Buildings",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Industrial Fire Hydrant System",
     "Structural Steel Fabrication",
     "Warehouse Construction Bhiwadi Pune Indore",
-    "The Shed Master Kaushal",
+    "The Shed Master",
   ],
   alternates: {
     canonical: "https://theshedmaster.com/",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "The Shed Master — Industrial Sheds, Fire Pipeline & Steel Fabrication India",
     description:
-      "Precision PEB sheds, conventional steel sheds, and certified fire pipeline installations across India. Led by Kaushal.",
+      "Precision PEB sheds, conventional steel sheds, and certified fire pipeline installations across India by The Shed Master.",
     url: "https://theshedmaster.com/",
     siteName: "The Shed Master",
     images: [
