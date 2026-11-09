@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppFloating from "@/components/layout/WhatsAppFloating";
 import { companyInfo } from "@/data/company";
 
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+const plusJakartaSans = localFont({
+  src: "./fonts/PlusJakartaSans-Variable.woff2",
   variable: "--font-sans",
   display: "swap",
+  weight: "400 800",
 });
 
 export const metadata: Metadata = {
