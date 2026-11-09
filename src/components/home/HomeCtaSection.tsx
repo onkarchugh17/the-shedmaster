@@ -10,7 +10,7 @@ export default function HomeCtaSection() {
       {/* Background industrial steel frame overlay */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
         <Image
-          src="/images/cta_background.jpg"
+          src="/images/cta_background_v2.jpg"
           alt="Industrial Steel Structure Background"
           fill
           className="object-cover object-center"

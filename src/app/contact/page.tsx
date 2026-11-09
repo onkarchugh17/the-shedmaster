@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       "Get a fast, transparent quote for PEB sheds, conventional factory structures, and fire pipeline work. Call 9211050139.",
     url: "https://theshedmaster.com/contact",
-    images: [{ url: "/images/hero_shed.jpg" }],
+    images: [{ url: "/images/hero_shed_v2.jpg" }],
   },
 };
 

@@ -26,27 +26,27 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0 overflow-hidden">
         {/* Full-width High-Res Modern Shed Image */}
         <Image
-          src="/images/hero_shed_modern.jpg"
+          src="/images/hero_shed_modern_v2.jpg"
           alt="Modern Industrial Warehouse Shed and Steel Solutions by The Shed Master"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-right md:object-[82%_center] xl:object-[88%_center]"
+          className="object-cover object-center md:object-[62%_center] xl:object-[58%_center]"
         />
 
-        {/* Desktop Enhanced Frosted Glass Backdrop Blur Overlay - Pushed further right with stronger blur */}
+        {/* Desktop Enhanced Frosted Glass Backdrop Blur Overlay behind left typography */}
         <div
-          className="hidden md:block absolute inset-y-0 left-0 w-[78%] lg:w-[72%] xl:w-[66%] z-10 pointer-events-none backdrop-blur-xl bg-gradient-to-r from-white via-white/95 via-white/82 via-white/40 to-transparent"
+          className="hidden md:block absolute inset-y-0 left-0 w-[55%] lg:w-[48%] xl:w-[44%] z-10 pointer-events-none backdrop-blur-md bg-gradient-to-r from-white via-white/95 via-white/80 to-transparent"
           style={{
             WebkitMaskImage:
-              "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 74%, rgba(0,0,0,0) 100%)",
+              "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%)",
             maskImage:
-              "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 74%, rgba(0,0,0,0) 100%)",
+              "linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%)",
           }}
         />
 
         {/* Mobile/Tablet Frosted Glass Overlay */}
-        <div className="md:hidden absolute inset-0 bg-white/92 backdrop-blur-sm z-10 pointer-events-none" />
+        <div className="md:hidden absolute inset-0 bg-white/90 backdrop-blur-sm z-10 pointer-events-none" />
       </div>
 
       {/* Hero Content Layer */}

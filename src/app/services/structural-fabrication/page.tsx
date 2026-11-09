@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Precision heavy steel fabrication, CNC cutting, certified SAW welding, and mobile crane erection across India.",
     url: "https://theshedmaster.com/services/structural-fabrication",
-    images: [{ url: "/images/structural_fabrication.jpg" }],
+    images: [{ url: "/images/structural_fabrication_v2.jpg" }],
   },
 };
 

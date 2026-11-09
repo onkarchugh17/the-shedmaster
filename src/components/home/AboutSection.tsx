@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl border border-gray-200 bg-gray-100">
               <Image
-                src="/images/about_facility.jpg"
+                src="/images/about_facility_v2.jpg"
                 alt="The Shed Master engineering leadership and fabrication facility"
                 width={700}
                 height={500}

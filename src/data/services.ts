@@ -43,7 +43,7 @@ export const servicesData: ServiceItem[] = [
       "Pre-engineered building solutions for industrial, commercial and agricultural needs.",
     heroDescription:
       "Our Pre-Engineered Building (PEB) sheds provide rapid installation, large column-free clear spans, and superior material efficiency. Engineered with high-tensile steel designed to withstand extreme Indian climate and wind load conditions.",
-    image: "/images/peb_shed.jpg",
+    image: "/images/peb_shed_v2.jpg",
     cardPoints: [
       "Cost Effective",
       "Quick Installation",
@@ -159,7 +159,7 @@ export const servicesData: ServiceItem[] = [
       "Traditional steel structures built strong for various applications.",
     heroDescription:
       "Engineered for heavy industrial applications requiring custom geometry, high localized load-bearing capacity, and site adaptability. Conventional sheds utilize standard hot-rolled structural steel sections, angular trusses, and site-welded or bolted joints.",
-    image: "/images/conventional_shed.jpg",
+    image: "/images/conventional_shed_v2.jpg",
     cardPoints: [
       "Versatile Design",
       "Customized to Your Needs",
@@ -222,8 +222,8 @@ export const servicesData: ServiceItem[] = [
       { label: "Roof Truss Types", value: "Angular Truss, Tubular Truss, North-Light Truss" },
       { label: "Connection Method", value: "Certified Site Welding & High-Grade Bolted Splices" },
       { label: "Sheeting Material", value: "Corrugated Galvanized Iron / Color Coated Steel 0.45mm-0.60mm" },
-      { label: "Standard Heights", value: "4m to 14m side height as per requirements" },
-      { label: "Corrosion Protection", value: "Double Red Oxide Primer + Synthetic Enamel / Epoxy Finish" },
+      { label: "Standard Heights", value: "2m to 14m side height as per requirements" },
+      { label: "Corrosion Protection", value: "Single Red Oxide Primer + Synthetic Enamel / Epoxy Finish" },
     ],
     process: [
       {
@@ -256,7 +256,7 @@ export const servicesData: ServiceItem[] = [
       {
         question: "What type of paint protection is applied?",
         answer:
-          "We apply two coats of high-grade zinc chromate / red oxide anti-corrosive primer followed by two finish coats of industrial synthetic enamel or industrial-grade polyurethane/epoxy paints for lasting corrosion protection.",
+          "We apply one coat of high-grade zinc chromate / red oxide anti-corrosive primer followed by one finish coat of industrial synthetic enamel or industrial-grade polyurethane/epoxy paints for lasting corrosion protection.",
       },
       {
         question: "Can you provide natural daylight in a conventional shed?",
@@ -275,7 +275,7 @@ export const servicesData: ServiceItem[] = [
       "Design, supply, installation and maintenance of complete firefighting systems.",
     heroDescription:
       "We engineer, install, and test complete industrial fire protection pipeline networks in compliance with NBC (National Building Code) and local Fire Department norms. From fire pump rooms and internal hydrant rings to automated sprinkler systems.",
-    image: "/images/fire_pipeline.jpg",
+    image: "/images/fire_pipeline_v2.jpg",
     cardPoints: [
       "Fire Pump Systems",
       "Pipeline Installation",
@@ -391,7 +391,7 @@ export const servicesData: ServiceItem[] = [
       "Custom steel fabrication for industrial, commercial and infrastructure projects.",
     heroDescription:
       "Specialized in bespoke heavy structural steel fabrication. We fabricate and erect heavy columns, built-up crane gantry girders, mezzanine floors, stair towers, pipe racks, and complex industrial portal frames with uncompromising dimensional accuracy.",
-    image: "/images/structural_fabrication.jpg",
+    image: "/images/structural_fabrication_v2.jpg",
     cardPoints: [
       "Precision Fabrication",
       "Heavy Duty Structures",

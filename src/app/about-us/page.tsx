@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Engineering durable industrial infrastructure across Indian manufacturing and logistics hubs.",
     url: "https://theshedmaster.com/about-us",
-    images: [{ url: "/images/about_facility.jpg" }],
+    images: [{ url: "/images/about_facility_v2.jpg" }],
   },
 };
 
@@ -63,7 +63,7 @@ export default function AboutUsPage() {
             <div className="lg:col-span-6">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-100 bg-gray-100">
                 <Image
-                  src="/images/about_facility.jpg"
+                  src="/images/about_facility_v2.jpg"
                   alt="The Shed Master engineering workshop and leadership on site"
                   width={750}
                   height={500}

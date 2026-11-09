@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Cost-effective, rapid installation, long-span Pre-Engineered Buildings across Indian industrial zones.",
     url: "https://theshedmaster.com/services/peb-shed",
-    images: [{ url: "/images/peb_shed.jpg" }],
+    images: [{ url: "/images/peb_shed_v2.jpg" }],
   },
 };
 

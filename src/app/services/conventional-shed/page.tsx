@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Versatile design, customized steel trusses, ideal for workshops, manufacturing plants, and agricultural godowns.",
     url: "https://theshedmaster.com/services/conventional-shed",
-    images: [{ url: "/images/conventional_shed.jpg" }],
+    images: [{ url: "/images/conventional_shed_v2.jpg" }],
   },
 };
 

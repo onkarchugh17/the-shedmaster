@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "The Shed Master",
     images: [
       {
-        url: "/images/hero_shed.jpg",
+        url: "/images/hero_shed_v2.jpg",
         width: 1200,
         height: 675,
         alt: "The Shed Master Industrial Warehouse Construction",

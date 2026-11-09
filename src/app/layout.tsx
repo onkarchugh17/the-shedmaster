@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description: companyInfo.description,
     images: [
       {
-        url: "/images/hero_shed.jpg",
+        url: "/images/hero_shed_v2.jpg",
         width: 1200,
         height: 675,
         alt: `${companyInfo.name} Industrial Shed Infrastructure`,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${companyInfo.name} — Industrial Infrastructure India`,
     description: companyInfo.description,
-    images: ["/images/hero_shed.jpg"],
+    images: ["/images/hero_shed_v2.jpg"],
   },
   robots: {
     index: true,

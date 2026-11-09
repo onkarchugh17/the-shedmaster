@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "NBC-compliant fire protection systems, heavy class MS piping, pump houses, and certified hydrostatic testing.",
     url: "https://theshedmaster.com/services/fire-pipeline-work",
-    images: [{ url: "/images/fire_pipeline.jpg" }],
+    images: [{ url: "/images/fire_pipeline_v2.jpg" }],
   },
 };
 

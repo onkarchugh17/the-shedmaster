@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description:
       "Real projects. Real results. Browse our industrial PEB sheds, conventional structures, and fire pipeline projects.",
     url: "https://theshedmaster.com/projects",
-    images: [{ url: "/images/hero_shed.jpg" }],
+    images: [{ url: "/images/hero_shed_v2.jpg" }],
   },
 };
 
