@@ -4,21 +4,6 @@ import Link from "next/link";
 import { ArrowRight, ShieldCheck, Truck, Star } from "lucide-react";
 import Container from "../shared/Container";
 
-// India silhouette icon in forest green
-function IndiaSilhouette({ className = "w-7 h-8" }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 100 120"
-      className={className}
-      fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <path d="M46 5 C49 6 52 9 53 13 C54 16 53 19 51 22 C53 24 57 25 59 27 C61 29 62 31 64 33 C67 34 71 33 74 35 C78 37 83 39 87 38 C90 39 92 42 93 45 C91 47 88 47 85 47 C82 49 79 52 77 54 C75 57 71 57 68 56 C65 57 63 60 62 63 C63 66 65 69 64 72 C62 75 60 78 57 80 C55 84 53 88 51 92 C49 97 47 103 45 109 C44 111 42 111 41 108 C39 103 37 96 35 91 C33 86 30 81 28 76 C26 72 24 68 23 64 C22 60 20 56 17 53 C14 51 11 52 8 50 C5 48 4 44 5 41 C7 38 11 37 14 38 C17 38 20 36 22 34 C23 30 22 26 24 23 C26 19 29 16 32 13 C35 10 38 6 41 4 Z" />
-    </svg>
-  );
-}
-
 export default function HeroSection() {
   return (
     <section className="relative w-full overflow-hidden bg-white border-b border-gray-100">
@@ -150,21 +135,6 @@ export default function HeroSection() {
             </div>
           </div>
         </Container>
-
-        {/* Floating Pan-India Badge on Bottom-Right of Shed Apron */}
-        <div className="hidden sm:flex absolute bottom-5 right-5 sm:bottom-6 sm:right-6 lg:bottom-7 lg:right-8 xl:bottom-8 xl:right-10 bg-white/90 backdrop-blur-md rounded-xl py-2.5 px-4 shadow-lg border border-white/60 items-center gap-3 z-20">
-          <div className="text-[#0D4734] shrink-0">
-            <IndiaSilhouette className="w-7 h-8" />
-          </div>
-          <div className="text-left">
-            <div className="text-[12px] font-bold text-[#0F172A] leading-tight">
-              Serving Businesses
-            </div>
-            <div className="text-[11px] text-[#475569] font-medium leading-tight mt-0.5">
-              Across India
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
